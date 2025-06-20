@@ -137,6 +137,18 @@ hr {
   margin-top: 20px;
 }
 
+/*Contenuto*/
+h2 {
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
 .line-green::after {
   content: "";
   display: block;
