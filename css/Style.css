@@ -8,6 +8,26 @@ bady {
   font-family: Arial, Helvetica, sans-serif
 }
 
+header {
+  background-color: rgba(8, 11, 18, 0.5);
+  height: 100px;
+}
+
+/*Button*/
+
+button {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: rgba(8, 11, 18, 0.5);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin: 25px;
+  margin-left: 84%;
+}
+
+
 /*MAIN*/
 main {
   height: calc(100vh - 100px);
@@ -98,6 +118,32 @@ hr {
   height: 100%;
   background-color: #141922;
   color: #fff;
+}
+
+/*Tabelle col-18*/
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.col-18 {
+  width: calc(100% / 6 - 10px);
+  margin-top: 20px;
+}
+
+.line-green::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #beff31;
+  margin-left: 20px;
 }
 
 /*Margini*/
