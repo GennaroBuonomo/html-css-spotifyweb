@@ -59,7 +59,7 @@ ul {
   margin-left: 15px;
 }
 
-h3 {
+.h3-1 {
   color: #fff;
   margin: 20px 15px;
 }
@@ -144,6 +144,31 @@ h2 {
   margin-bottom: 30px;
   font-size: 30px;
 }
+
+/*Colonne*/
+.col-25 {
+  width: calc(100% / 6 - 20px);
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.title-name {
+  text-align: center;
+}
+
+
+.Subtitle {
+  margin-left: 70px;
+
+}
+
 
 .ml-10 {
   margin-left: 10px;
