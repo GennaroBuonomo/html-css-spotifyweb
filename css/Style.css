@@ -253,31 +253,40 @@ footer {
   background-color: #282828;
 }
 
-.border-white {
-  border: 2px solid white;
-}
-
-.container-footer {
-  max-width: 100%;
-  margin: 0 auto;
+.footer-left {
   display: flex;
+  align-items: center;
 }
 
-.col-20 {
-  width: 20%;
+.spotify-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
-.col-60 {
-  width: 60%;
-  height: 100px;
+.titolo-canzone {
+  font-weight: bold;
 }
 
-.col-20 img {
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
+.artista {
+  font-size: 12px;
 }
 
-.title-song {
-  display: inline-block;
+.immagine-canzone {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.icons {
+  margin-left: 10px;
+  cursor: pointer;
 }
