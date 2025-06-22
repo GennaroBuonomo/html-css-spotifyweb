@@ -254,11 +254,15 @@ footer {
 }
 
 .footer-left,
-.footer-center {
+.footer-center,
+.footer-right {
   display: flex;
   align-items: center;
 }
 
+.footer-left {
+  flex: 1;
+}
 
 .spotify-footer {
   position: fixed;
@@ -299,6 +303,7 @@ footer {
   justify-content: center;
   margin-bottom: 12px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .footer-center {
@@ -312,11 +317,26 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 90%;
 }
 
 .player-bar {
   width: 50%;
+  background-color: gray;
+  height: 5px;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+
+.footer-right {
+  flex: 1;
+  justify-content: flex-end;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.player-bar-min {
+  width: 16%;
   background-color: gray;
   height: 5px;
   border-radius: 5px;
