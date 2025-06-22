@@ -205,7 +205,7 @@ h2 {
 
 .coll-33 {
   width: 250px;
-  height: 400px;
+  height: 350px;
 }
 
 .text-col33 {
@@ -213,6 +213,24 @@ h2 {
   font-weight: 900;
   font-size: 20px;
   margin-top: 20px;
+}
+
+/*Artisti più popolari*/
+.col-33 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.col-33 img {
+  width: 100%;
+  height: auto;
+}
+
+.text-33 {
+  margin: 30px;
 }
 
 /*Margini*/
