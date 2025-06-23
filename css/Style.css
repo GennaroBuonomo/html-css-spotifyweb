@@ -342,3 +342,24 @@ footer {
   border-radius: 5px;
   margin: 0px 10px;
 }
+
+/*Hover*/
+.col-18:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+li:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+li.my-20:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.font-size:hover {
+  cursor: pointer;
+  color: white;
+}
